@@ -1,12 +1,14 @@
-# Binaries for programs and plugins
-*.exe
-*.exe~
-*.dll
+# file types
+*.o
+*.a
 *.so
-*.dylib
-
-# Test binary, build with `go test -c`
+*.exe
 *.test
+*.prof
+*.db
+*.DS_Store
 
-# Output of the go coverage tool, specifically when used with LiteIDE
-*.out
+# folders
+vendor
+node_modules
+tmp
